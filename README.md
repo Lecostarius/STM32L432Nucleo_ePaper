@@ -47,3 +47,7 @@ BUSY    A2  (PA3)
 8) compile, flash. If you flash from a .bin file, the Prog. addr. is 0x08000000. I was using
 the SEGGER J-Flash Lite 6.44b, after changing the standard ST-LINKV2 interface of the Nucleo
 board to Segger J-Link. But I verified that flashing with ST-LINKV2 directly works just the same.
+
+Kudos to Waveshare for creating a library to control their ePaper that is really easy to adapt
+to other STM32 microcontrollers!
+
