@@ -29,7 +29,9 @@
 #
 ******************************************************************************/
 #include "DEV_Config.h"
-#include "stm32f1xx_hal_spi.h"
+
+//#include "stm32f1xx_hal_spi.h"
+#include "stm32l4xx_hal_spi.h"
 
 extern SPI_HandleTypeDef hspi1;
 void DEV_SPI_WriteByte(UBYTE value)
