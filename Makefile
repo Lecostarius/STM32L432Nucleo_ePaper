@@ -74,7 +74,10 @@ Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c \
 User/Config/DEV_Config.c \
 User/e-Paper/EPD_1in54.c \
 User/e-Paper/ImageData.c \
-User/GUI/GUI_Paint.c
+User/GUI/GUI_Paint.c \
+Fonts/font20.c \
+Fonts/font12CN.c \
+Fonts/font24CN.c
 
 # ASM sources
 ASM_SOURCES =  \
@@ -137,7 +140,8 @@ C_INCLUDES =  \
 -IDrivers/CMSIS/Include \
 -IUser/Config \
 -IUser/e-Paper \
--IUser/GUI
+-IUser/GUI \
+-IUser/Fonts
 
 
 # compile gcc flags
