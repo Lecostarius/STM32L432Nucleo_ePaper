@@ -43,7 +43,11 @@
 #include "gpio.h"
 
 /* USER CODE BEGIN Includes */
-
+#include "EPD_1in54.h"
+#include "DEV_Config.h"
+#include "GUI_Paint.h"
+#include "imagedata.h"
+#include <stdlib.h>
 /* USER CODE END Includes */
 
 /* Private variables ---------------------------------------------------------*/
