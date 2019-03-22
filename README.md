@@ -27,7 +27,9 @@ named in the Waveshare code (BUSY, RST, DC).
 
 ePaper  Nucleo
 VCC     3V3
+
 GND     GND
+
 DIN     A6  (PA7, this is SPI1_MOSI)
 CLK     A1  (PA1, this is SPI1_SCK)
 CS      D6  (PB1, SPI_CS)
