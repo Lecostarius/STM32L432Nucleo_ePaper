@@ -49,8 +49,10 @@
 #define _DEV_CONFIG_H_
 
 #include "main.h"
-#include "stm32f1xx_hal.h"
-#include "stm32f1xx_hal_gpio.h"
+#include "stm32l4xx_hal.h"
+//#include "stm32f1xx_hal.h"
+//#include "stm32f1xx_hal_gpio.h"
+#include "stm32l4xx_hal_gpio.h"
 #include <stdint.h>
 
 /**
