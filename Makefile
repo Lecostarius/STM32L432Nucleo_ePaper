@@ -70,7 +70,11 @@ Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c \
 Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c \
 Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c \
 Src/main.c \
-Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c  
+Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c \
+User/Config/DEV_Config.c \
+User/e-Paper/EPD_1in54.c \
+User/e-Paper/ImageData.c \
+User/GUI/GUI_Paint.c
 
 # ASM sources
 ASM_SOURCES =  \
@@ -130,7 +134,10 @@ C_INCLUDES =  \
 -IDrivers/STM32L4xx_HAL_Driver/Inc \
 -IDrivers/STM32L4xx_HAL_Driver/Inc/Legacy \
 -IDrivers/CMSIS/Device/ST/STM32L4xx/Include \
--IDrivers/CMSIS/Include
+-IDrivers/CMSIS/Include \
+-IUser/Config \
+-IUser/e-Paper \
+-IUser/GUI
 
 
 # compile gcc flags
