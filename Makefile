@@ -75,9 +75,11 @@ User/Config/DEV_Config.c \
 User/e-Paper/EPD_1in54.c \
 User/e-Paper/ImageData.c \
 User/GUI/GUI_Paint.c \
-Fonts/font20.c \
-Fonts/font12CN.c \
-Fonts/font24CN.c
+User/Fonts/font20.c \
+User/Fonts/font12CN.c \
+User/Fonts/font24CN.c 
+
+
 
 # ASM sources
 ASM_SOURCES =  \
