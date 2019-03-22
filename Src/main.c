@@ -150,11 +150,11 @@ int main(void)
 
     Paint_DrawCircle(170, 35, 20, BLACK, DRAW_FILL_EMPTY, DOT_PIXEL_1X1);
     Paint_DrawCircle(170, 85, 20, BLACK, DRAW_FILL_FULL, DOT_PIXEL_1X1);
-    Paint_DrawString_EN(5, 85, "waveshare", &Font20, BLACK, WHITE);
+    Paint_DrawString_EN(5, 85, "Lecostarius", &Font20, BLACK, WHITE);
     Paint_DrawNum(5, 110, 123456789, &Font20, BLACK, WHITE);
 
-    Paint_DrawString_CN(5, 135,"���abc", &Font12CN, BLACK, WHITE);
-    Paint_DrawString_CN(5, 160, "΢ѩ����", &Font24CN, WHITE, BLACK);
+    //Paint_DrawString_CN(5, 135,"���abc", &Font12CN, BLACK, WHITE);
+    //Paint_DrawString_CN(5, 160, "΢ѩ����", &Font24CN, WHITE, BLACK);
 
     EPD_Display(BlackImage);
     DEV_Delay_ms(2000);
@@ -197,7 +197,7 @@ int main(void)
     EPD_Sleep();
     free(BlackImage);
     BlackImage = NULL;
-    
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
