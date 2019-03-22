@@ -26,16 +26,23 @@ named in the Waveshare code (BUSY, RST, DC).
 7) connect the ePaper electrically:
 
 ePaper  Nucleo
+
 VCC     3V3
 
 GND     GND
 
 DIN     A6  (PA7, this is SPI1_MOSI)
+
 CLK     A1  (PA1, this is SPI1_SCK)
+
 CS      D6  (PB1, SPI_CS)
+
 DC      D3  (PB0)
+
 RST     A4  (PA5)
+
 BUSY    A2  (PA3)
+
 
 8) compile, flash. If you flash from a .bin file, the Prog. addr. is 0x08000000. I was using
 the SEGGER J-Flash Lite 6.44b, after changing the standard ST-LINKV2 interface of the Nucleo
